@@ -5,6 +5,7 @@ A 2 hours [Coding Challenge](https://www.youtube.com/watch?v=qGwR_DSSnuQ) by Col
 View [here](https://denzeltl.github.io/stepper-form/)
 
 **Elapsed time:** _1 hour 53 minutes_
+
 **Completed on:** _01/03/2020_
 
 ---

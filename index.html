@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Stepper Form</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <main>
+            <form>
+                <section class="step-1">
+                    <header>
+                        <span>1</span>
+                        <div>
+                            <h1>Step 1</h1>
+                            <p>Email</p>
+                        </div>
+                    </header>
+                    <div id="section-1" class="content">
+                        <input type="email" placeholder="Enter your email" />
+                        <div data-section="1" class="button continue">Continue</div>
+                    </div>
+                </section>
+                <section class="step-2">
+                    <header>
+                        <span>2</span>
+                        <div>
+                            <h1>Step 2</h1>
+                            <p>Username</p>
+                        </div>
+                    </header>
+                    <div id="section-2" class="content hidden">
+                        <input type="text" placeholder="Enter your username" />
+                        <div data-section="2" class="button continue">Submit</div>
+                        <div data-section="2" class="button back">Back</div>
+                    </div>
+                </section>
+                <section class="step-3">
+                    <header>
+                        <span>3</span>
+                        <div>
+                            <h1>Step 3</h1>
+                            <p>Finish</p>
+                        </div>
+                    </header>
+                    <div id="section-3" class="content hidden">
+                        <p>
+                            Congratulations!<br />
+                            Your account has been created.
+                        </p>
+                    </div>
+                </section>
+            </form>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
